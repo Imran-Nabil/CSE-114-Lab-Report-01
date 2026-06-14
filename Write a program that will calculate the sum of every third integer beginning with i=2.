@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main(){
+int n,sum=0,i=2;
+printf("Enter Your Last Number = ");
+scanf("%d",&n);
+while(i<=n)
+{
+sum=sum+i;
+i=i+3;
+}
+printf("Sum of every third integers from 2 to %d= %d",n,sum);
+return 0;
+}
