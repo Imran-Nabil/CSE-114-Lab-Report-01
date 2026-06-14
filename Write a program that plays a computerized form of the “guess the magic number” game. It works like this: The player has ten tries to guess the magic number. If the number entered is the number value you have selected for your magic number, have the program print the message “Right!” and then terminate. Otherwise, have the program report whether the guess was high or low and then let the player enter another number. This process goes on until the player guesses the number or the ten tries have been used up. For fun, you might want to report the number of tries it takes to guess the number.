@@ -1,0 +1,21 @@
+#include<stdio.h>
+#include<stdlib.h>
+int main(){
+int magic=46;
+int n;
+for(int i=1;i<=10;i++){
+scanf("%d",&n);
+if(n==magic){
+printf("Right!");
+break;
+}
+else if(n>46){
+
+printf("High\n");
+}
+else{
+printf("Low\n");
+}
+}
+return 0;
+}
